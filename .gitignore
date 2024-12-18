@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# VS extras
+/.vs
+/vcpkg_installed
+/video-st*/x64
+/x64
+/video-stabilization.vcxproj.user
