@@ -31,7 +31,7 @@ int stabilizeVideo(const std::string& inputPath, const std::string& outputPath) 
     std::chrono::duration<double> t = std::chrono::seconds::zero();
     int frameIndex = 0;
 
-    for (; frameIndex < 1000; frameIndex++) {
+    for (;; frameIndex++) {
         cap >> image;
 
         if (image.empty())
